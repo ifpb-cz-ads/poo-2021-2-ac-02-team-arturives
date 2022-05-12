@@ -8,7 +8,7 @@ class BMExercicio3 {
         System.out.println("O primeiro item custa R$" + primeiroItemDeVenda + " e o segundo item custa R$" + segundoItemDeVenda);
         
         double custoTotalDosItens = primeiroItemDeVenda + segundoItemDeVenda;
-        final double taxaCalculada = 0.825;
+        final double taxaCalculada = 0.0825;
         
         double novoCusto = (primeiroItemDeVenda * taxaCalculada) + (segundoItemDeVenda * taxaCalculada);
         
